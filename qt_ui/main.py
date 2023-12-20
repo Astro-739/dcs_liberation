@@ -112,6 +112,8 @@ def run_ui(create_game_params: CreateGameParams | None, ui_flags: UiFlags) -> No
     uiconstants.load_aircraft_icons()
     uiconstants.load_vehicle_icons()
 
+    # TEST ASFM
+
     # Show warning if no DCS Installation directory was set
     if liberation_install.get_dcs_install_directory() == "":
         logging.warning(
